@@ -39,6 +39,10 @@ p {
 
 /* all pages */
 
+.logotype{
+  margin: 0 0 2vh 0;
+}
+
 .img-container {
   width: 100%;
   height: 100%;
