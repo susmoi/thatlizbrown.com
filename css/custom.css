@@ -61,6 +61,21 @@ p {
   justify-content: space-between;
 }
 
+.nav-bar{
+  margin-bottom: 3rem;
+}
+
+.row-content{
+
+}
+
+.link-to-project-page{
+  /* display: contents; */
+}
+
+.link-to-project-page:hover{
+  transform: rotate(25deg);
+}
 
 /* INDEX page */
 .index-grid {
@@ -83,7 +98,7 @@ padding: 0 10rem;
 .index-text-container{
   /* align-self: center; */
   /* text-align: center; */
-  margin: auto 0;
+  /* margin: auto 0; */
 }
 
 .index-link{
@@ -94,6 +109,7 @@ padding: 0 10rem;
 .col-index-text{
   display: flex;
   flex-direction: column;
+  transition: transform 1s;
 }
 
 
