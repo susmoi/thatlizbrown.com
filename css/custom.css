@@ -173,6 +173,14 @@ footer {
   padding: 5vh;
 }
 
+.fab, .far{
+  color: white;
+}
+.fab:hover, .far:hover{
+  color: rgb(0, 232, 255);
+  text-decoration: none;
+}
+
 
 /* ~~~~ TEST CODE ~~~~ */
 
