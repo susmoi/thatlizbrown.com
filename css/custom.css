@@ -16,7 +16,7 @@ main {
   /* put on top */
   position: relative;
   z-index: 1;
-  padding: 2rem;
+  padding: 10rem 10rem;
 }
 
 /* TEXT */
@@ -24,8 +24,29 @@ p {
   margin: 0 auto 1rem;
 }
 
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 1.4rem;
+}
+
 /* BOOTSTRAP */
-.card-deck {padding: 10vw 10vw 0vw 10vw}
+.card{
+  border: 0;
+}
+
+.card-body {
+  padding: 0
+}
+
+.card-footer{
+  border: 0;
+  background-color: #fff;
+  padding: 0;
+}
+
 
 .btn{
   color: #fff;
@@ -45,16 +66,21 @@ p {
   border-color: #6562fc;
 }
 
+.badge {
+  cursor: default;
+}
+
 
 /* !!! CUSTOM CSS !!! */
 
 /* ALL PAGES */
 .logotype{
-  margin: 0 0 2vh 0;
+text-align: left;
 }
 
 .logotype-img{
-  width: 100%
+  width: 35%;
+
 }
 
 .img-container {
@@ -68,13 +94,18 @@ p {
 
 .main-nav{
 /* adds space below nav */
-  margin-bottom: 3rem;
+  margin: 1rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  text-align: end;
 }
 
 .col-nav-links{
 /* makes nav flex column with even spacing */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -112,69 +143,9 @@ p {
 
 }
 
-
-
-/* ALL PROJECT page */
-.all-project-img-container{
+.about-p{
 
 }
-
-.all-project-img{
-  height: 100%;
-  width: 100%;
-  /* border: 5px solid rgb(9, 14, 20); */
-
-}
-.col-all-project-text{
-/* selects bootstrap col */
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
-.all-project-text-container{
-/* selects project discriptions/text */
-}
-
-.all-projects-btn{
-
-}
-
-/* PROJECT page */
-.project-container{
-  margin-top: 5vh;
-  margin-bottom: 15vh;
-
-}
-.project-hero-container {
-  width: 100%;
-  height: 500px;
-  margin: 0 0 20vh 0;
-}
-
-.project-img-container{
-  width: 100%;
-  height: 100%;
-  margin: 0 0 0 0;
-}
-.project-img {
-  width: 100%;
-  height: 100%;
-  margin: 0 0 0 0;
-}
-
-.project-hero-text {
-  width: 100%;
-  height: 20vh;
-  margin: 0 0 0 0;
-}
-
-.project-content {
-  width: 100%;
-  height: 25vh;
-  margin-bottom: 5vh;
-}
-
 
 /* FOOTER */
 
@@ -197,7 +168,7 @@ footer {
 
 /* selects :hover footer icons */
 .fab:hover, .far:hover{
-  opacity: 50%;
+  opacity: 40%;
   color: white;
   text-decoration: none;
 }
