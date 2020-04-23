@@ -13,10 +13,10 @@ main {
   min-height: 100vh;
   /* need a solid bg to hide the footer */
   background: white;
-  /* put on top */
+  /* put on top of footer*/
   position: relative;
   z-index: 1;
-  padding: 10rem 10rem;
+  /* padding: 10rem 10rem; */
 }
 
 /* TEXT */
