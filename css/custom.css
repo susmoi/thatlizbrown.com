@@ -19,76 +19,12 @@ main {
   /* padding: 10rem 10rem; */
 }
 
-/* TEXT */
-p {
-  margin: 0 auto 1rem;
-}
-
-h1{
-  font-size: 4rem;
-}
-
-h2{
-  font-size: 1.4rem;
-}
-
-/* BOOTSTRAP */
-.card{
-  border: 0;
-}
-
-.card-body {
-  padding: 0
-}
-
-.card-footer{
-  border: 0;
-  background-color: #fff;
-  padding: 0;
-}
-
-
-.btn{
-  color: #fff;
-  background-color: #3431D6;
-  border-color: #3431D6;
-}
-
-.btn:hover{
-  color: #fff;
-  background-color: #6562fc;
-  border-color: #6562fc;
-}
-
-.btn:focus{
-  color: #fff;
-  background-color: #6562fc;
-  border-color: #6562fc;
-}
-
-.badge {
-  cursor: default;
-}
-
-
-/* !!! CUSTOM CSS !!! */
-
-/* ALL PAGES */
 .logotype{
 text-align: left;
 }
 
 .logotype-img{
-  width: 35%;
-
-}
-
-.img-container {
-  width: 100%;
-  height: 100%;
-}
-
-.page-header{
+  width: 2.5em;
 
 }
 
@@ -113,24 +49,25 @@ text-align: left;
 /* selects a tags in nav */
 }
 
-
-
-.link-to-project-page{
-  /* display: contents; */
+/* TEXT */
+p {
+  margin: 0 auto 1rem;
 }
 
-.link-to-project-page:hover{
-
+.index-text-container, .about-p, .about-h1, .about-h2{
+  font-size: 1em;
 }
 
-/* INDEX page */
-.index-img{
-    width: 100%;
-    height: 100%;
-    margin: 0 0 0 0;
-  }
+
+.col-index-text{
+
+}
 
 .index-text-container{
+
+}
+
+.about-p{
 
 }
 
@@ -139,12 +76,56 @@ text-align: left;
   color: redrgb(13, 172, 231);
   font-family: inherit;
 }
-.col-index-text{
 
+.img-container {
+  width: 100em;
+  height: 100em;
 }
 
-.about-p{
+.index-img{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+  }
 
+.card{
+  border: 0;
+}
+
+.card-body {
+  padding: 0
+}
+
+.card-footer{
+  border: 0;
+  background-color: #fff;
+  padding: 0;
+}
+
+
+.btn{
+  color: #fff;
+  background-color: #3431D6;
+  border-color: #3431D6;
+  font-size: .7rem;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #6562fc;
+  border-color: #6562fc;
+}
+
+.btn:focus{
+  color: #fff;
+  background-color: #6562fc;
+  border-color: #6562fc;
+}
+
+.badge {
+  cursor: default;
+  font-size: .5em;
+  padding: .7em
 }
 
 /* FOOTER */
