@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\custom.css">
+    <!-- scripts -->
     <script src="https://kit.fontawesome.com/bb7ea3d4ab.js" crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function(){
+          $('#nav').load('reusenav.html');
+      });
+    </script>
+    <!-- end of scripts -->
   </head>
   <body>
     <!-- MAIN -->
@@ -16,32 +24,14 @@
       <!--CONTAINER -->
       <div class="container-fulid main-container">
         <!-- NAV -->
-        <div class="row main-nav">
-          <!-- logotype -->
-          <div class="logotype col-2" >
-            <a href="index.html" tabindex="0">
-              <!-- !ALERT ADD ALT TEXT! -->
-              <img class="logotype-img" src="images\logotype.png" alt="">
-            </a>
-          </div>
-          <!-- nav -->
-          <div class="col-nav-links col-2 offset-8">
-            <div class=""tabindex="0">
-              <a class="main-nav-link" href="work.html">WORK</a>
-            </div>
-            <div class=""tabindex="0">
-              <a class="main-nav-link" href="index.html">ABOUT</a>
-            </div>
-            <div class=""tabindex="0">
-              <a class="main-nav-link" href="resume.html" target="_blank" >RESUME</a>
-            </div>
-          </div>
+        <div id="nav">
+
         </div>
-        <!-- NAV END -->
+        <!-- resuse nav end -->
         <!-- HERO -->
         <div class="row mt-5 pl-3 pr-3 offset-1">
           <div class="col-11 about-container">
-            <h1>Hi, I'm Liz.</h1>
+            <h1>Liz Brown</h1>
             <p class="about-p mt-3 mb-4">
               A UX Researcher and Human-Centered Designer with a background in consulting and experimental psychology.
             </p>
@@ -56,16 +46,18 @@
         <div class="row mt-4 mb-5 pl-3 pr-3 offset-1">
           <div class="col-11 about-container">
             <!-- Header -->
-            <h2>I take life, as seriously, as it takes me </h2>
+            <h2>Be Thinking</h2>
             <!-- content -->
             <p class="about-p mt-4 mb-4">
-              Here, on a four billion year-old planet, hurrling through the unknown unknown, I take each day as it comes. Doing what I love, discovering experiences and untangling meaning and embracing the things I learning to love, like messiness and imperfection.
+              Here, on our four billion year-old planet, hurrling through the unknown unknown. I take each day as it comes. Discovering experiences and untangling meaning and embracing the things I learning to love, like messiness and imperfection.
               <br><br>
 
               Being a UX researcher doesn't define me, but it does inspire me. Everyday I try to get a little better, a littler wiser, a little more empathic, and a little more grateful.
               <br><br>
+
               At any moment, you might find me playing strategy games, advocating for the term 'enslaved people' over the term 'slaves,' reading wiki articles, writing one screenplay over and over again, listening to Little Dragon, or playing tennis.
               <br><br>
+
               Send work requests, intersting tidbits, other things my way at <a href="mailto:liz.alma.brown@gmail.com?subject=*Waving emoji hand* Hi Liz!" target="_self" data-content="liz.alma.brown@gmail.com" data-type="mail" target="_blank">liz.alma.brown@gmail.com</a>.
             </p>
             <p class="offset-9">Thanks for stopping by.
