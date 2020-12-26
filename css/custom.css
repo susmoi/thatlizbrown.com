@@ -15,17 +15,6 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2 {font-family: 'Lato', sans-serif; margin: 0}
-
-h1, h2, h3, p {color: #2fc536}
-.name-header {font-weight: 700;font-size: 2rem}
-.title-header {color: #444CDF; padding-top: 10px; font-weight: 400; font-size: 1.3rem}
-.name-header, .title-header {margin: 0px}
-h1 {font-weight: 400;font-size: 2rem}
-h2 {font-weight: 400;font-size: 1rem}
-h3 {font-weight: 400;font-size: .6rem}
-p {}
-
 
 .section-link {font-family: 'Lato', sans-serif; font-weight: 300; font-size: 2rem; color: #0B0D3D}
 
