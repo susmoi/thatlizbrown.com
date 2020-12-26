@@ -43,10 +43,8 @@ grid-row-gap: 15px;
 /* image styling */
 .home-img {width: 100%}
 
-/* Heading styling */
+/*Heading styling
 
-/* h1
-h2 */
 h1, h2 {font-family: 'Lato', sans-serif; margin: 0}
 
 h1, h2, h3, p {color: #0B0D3D}
@@ -73,3 +71,4 @@ a:active {
 }
 
 .hide{display: none;}
+*/
