@@ -16,7 +16,14 @@ body {
 }
 
 h1{font-family: 'Lato', sans-serif; font-weight: 300; font-size: 2rem; color: #0ed32f}
-h2{}
+h2{ font-size: none;
+    margin-bottom: none;
+    font-weight: none;
+    line-height: none;
+    margin-top: none;
+    margin-bottom: none;
+    color: #ff00d4;
+}
 h3{}
 h4{}
 
