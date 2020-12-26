@@ -15,25 +15,42 @@ body {
   box-sizing: border-box;
 }
 
-h1{font-family: 'Lato', sans-serif; font-weight: 300; font-size: 2rem; color: #0ed32f}
-h2{ font-size: none;
+h1{ font-family: 'Lato', sans-serif; 
+    font-weight: 900; 
+    font-size: 1rem;
     margin-bottom: none;
-    font-weight: none;
     line-height: none;
     margin-top: none;
     margin-bottom: none;
-    color: #ff00d4;
+    color: #283cee;
 }
-h3{font-size: none;
-  margin-bottom: none;
-  font-weight: none;
-  line-height: none;
-  margin-top: none;
-  margin-bottom: none;
+h2{ font-family: 'Lato', sans-serif; 
+    font-weight: 400; 
+    font-size: .75rem;
+    margin-bottom: none;
+    line-height: none;
+    margin-top: none;
+    margin-bottom: none;
+    color: none;
+}
+h3{ font-family: 'Lato', sans-serif; 
+    font-weight: 400; 
+    font-size: .5rem;
+    margin-bottom: none;
+    line-height: none;
+    margin-top: none;
+    margin-bottom: none;
   color: #283cee;}
-/* h4{}
+/* h4{} */
 
-p{} */
+p{ font-family: 'Lato', sans-serif; 
+    font-weight: 400; 
+    font-size: .5rem;
+    margin-bottom: none;
+    line-height: none;
+    margin-top: none;
+    margin-bottom: none;
+  }
 
 
 .section-link {font-family: 'Lato', sans-serif; font-weight: 300; font-size: 2rem; color: #0B0D3D}
