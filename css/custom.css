@@ -31,9 +31,9 @@ h3{font-size: none;
   margin-top: none;
   margin-bottom: none;
   color: #283cee;}
-h4{}
+/* h4{}
 
-p{}
+p{} */
 
 
 .section-link {font-family: 'Lato', sans-serif; font-weight: 300; font-size: 2rem; color: #0B0D3D}
@@ -97,23 +97,23 @@ main {
   justify-content: space-between;
 }
 
-.main-nav-link{
-/* selects a tags in nav */
-}
+/* .main-nav-link{
+ selects a tags in nav
+} */
 
 /* TEXT */
 p {
   margin: 0 auto 1em;
 }
 
-.about-container{
+/* .about-container{
 
-}
+} */
 
 
-.about-p{
+/* .about-p{
 
-}
+} */
 
 .index-link{
   font-size: 2rem;
@@ -173,9 +173,9 @@ p {
   padding: .7em
 }
 /* /MONOTYPE PAGE */
-.mono-hero-container{
-  /* height: 100vh; */
-}
+/* .mono-hero-container{
+ height: 100vh;
+}*/
 
 .mono-h1 {
   font-size: calc(16px + 7vw)
