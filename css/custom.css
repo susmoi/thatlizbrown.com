@@ -24,7 +24,13 @@ h2{ font-size: none;
     margin-bottom: none;
     color: #ff00d4;
 }
-h3{}
+h3{font-size: none;
+  margin-bottom: none;
+  font-weight: none;
+  line-height: none;
+  margin-top: none;
+  margin-bottom: none;
+  color: #283cee;}
 h4{}
 
 p{}
