@@ -110,9 +110,9 @@ main {
   justify-content: space-between;
 }
 
-/* .main-nav-link{
- selects a tags in nav
-} */
+.main-nav-link{
+  color: black;
+}
 
 /* TEXT */
 p {
