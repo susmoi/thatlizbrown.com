@@ -129,7 +129,7 @@ p {
 } */
 
 .hero-p{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .index-link{
@@ -145,7 +145,7 @@ p {
 
 .about-img{
     display: block;
-    width: 35%;
+    width: 100%;
     margin: 0 0 0 0;
     border-radius: 4px;
   }
