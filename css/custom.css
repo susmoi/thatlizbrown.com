@@ -54,6 +54,7 @@ a:link {
 
 a:hover {
   text-decoration: underline;
+  color: #41D3BD;
 }
 
 a:active {
@@ -94,7 +95,6 @@ main {
   margin: 20rem 0 0 2rem;
   position: fixed;
   top: 0;
-  z-index: 100;
   width: 100%;
   text-align: end;
   font-size: .5em;
@@ -115,6 +115,9 @@ main {
   color: #7d869c;
 }
 
+.nav-link:hover{
+  text-decoration: underline;
+}
 /* TEXT */
 p {
   margin: 0 auto 1em;
