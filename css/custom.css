@@ -218,15 +218,16 @@ footer {
   /* pads the thing */
   padding: 2em;
   font-size: .5em;
+  text-align: center;
 }
 
 .footer-icon {
   padding: 0 1.3rem;
 }
 
-.icon-container{
-  text-align: center;
-}
+/* .icon-container{
+
+} */
 
 /* selects footer icons */
 .fab, .far{
