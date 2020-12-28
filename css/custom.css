@@ -220,6 +220,10 @@ footer {
   font-size: .5em;
 }
 
+.footer-icon {
+  padding: 0 1.3rem;
+}
+
 .icon-container{
   text-align: center;
 }
