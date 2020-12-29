@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Work</title>
+
+    <!-- style sheets & images -->
     <link rel="images" href="images">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="css\custom.css">
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css\custom.css">
+   
+ 
     <!-- scripts -->
     <script src="https://kit.fontawesome.com/bb7ea3d4ab.js" crossorigin="anonymous">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- script functions -->
+    
+    <!-- functions scripts -->
     <script>
       $(function(){
           $('#nav').load('cc-nav.html');
@@ -28,6 +32,7 @@
       });
     </script>
     <!-- end of scripts -->
+
   </head>
   <body>
     <!-- MAIN -->
@@ -38,14 +43,17 @@
         <div id="nav">
 
         </div>
-        <!-- resuse nav end -->
-        <!-- WORK -->
-        <div class="mt-5 pl-3 pr-3 offset-1" id="work">
-          <div class="mb-3">
+        <!-- NAV END -->
+
+        <!-- WORK START -->
+        <div class="row mt-5 pl-3 pr-3 offset-1" id="work">
+          <div class="col-3 mb-3">
             <h2>Work</h2>
           </div>
+          <div class="w-100"></div>
+
           <!-- Shogun column -->
-          <div class="mt-5">
+          <div class="col-3 mt-5">
             <!-- shogun card -->
             <div class="card">
               <div class="card-body">
@@ -55,8 +63,10 @@
               </div>
             </div>
           </div>
+          <div class="w-100"></div>
+
           <!-- Monotype column -->
-          <div class="mt-5">
+          <div class="col-3 mt-5">
             <!-- monotype card -->
             <div class="card">
               <div class="card-body">
@@ -66,8 +76,10 @@
               </div>
             </div>
           </div>
+          <div class="w-100"></div>
+
           <!-- CUTGroup column -->
-          <div class="mt-5">
+          <div class="col-3 mt-5">
             <!-- cutgroup card -->
             <div class="card">
               <div class="card-body">
@@ -79,14 +91,13 @@
           </div>
         </div>
         <!-- WORK END -->
-
         <!-- CONTAINER END -->
       </div>
     </main>
     <!-- END OF MAIN -->
     <!-- FOOTER -->
     <div id="footer">
-
+    <!-- cc-footer.html inserted below -->
     </div>
     <!-- END OF FOOTER -->
     <!-- SCRIPT -->

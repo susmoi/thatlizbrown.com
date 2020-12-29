@@ -2,7 +2,7 @@
 <div class="row main-nav">
   <div class="col-2">
     <h1 id="title">
-      <!-- insert function -->
+      <!-- titletag function inserted below -->
     </h1>
   </div>
   <!-- nav -->
@@ -20,13 +20,7 @@
 </div>
 
 <script>
-  $(function(){
-      $('#title').load(document.title);
-      console.log('title function ran')
-      console.log(document.title)
-  });
-</script>
-<script>
-  titletag = document.getElementById('title')
-  titletag.textContent = document.title
+  titleTag = document.getElementById('title')
+  titleTag.textContent = document.title
+  console.log('titleTag function ran')
   </script>
