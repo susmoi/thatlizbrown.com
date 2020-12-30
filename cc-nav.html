@@ -2,25 +2,47 @@
 <div class="row main-nav">
   <div class="col-2">
     <h1 id="title">
-      <!-- titletag function inserted below -->
+      <!-- titleTag function inserted below -->
     </h1>
   </div>
   <!-- nav -->
   <div class="nav-link-group col-1 offset-7">
-    <div class=""tabindex="0">
+    <div class="#about"tabindex="0">
       <a class="nav-link" href="index.html">About</a>
     </div>
-    <div class=""tabindex="0">
+    <div class="#work"tabindex="0">
       <a class="nav-link" href="work.html">Work</a>
     </div>
-    <div class=""tabindex="0">
+    <div class="#resume"tabindex="0">
       <a class="nav-link" href="resume.html" >Resume</a>
     </div>
   </div>
 </div>
 
+ <!-- titleTag function -->
 <script>
   titleTag = document.getElementById('title')
   titleTag.textContent = document.title
   console.log('titleTag function ran')
   </script>
+
+<!-- testTitle function -->
+<script>
+  function testTitle(a) {
+  let result;
+  if (a == document.title) {
+    result = 'positive';
+  } else {
+    result = 'NOT positive';
+  }
+  return result;
+}
+
+if (result == 'positive'){
+  removeDiv = document.getElementById('title')
+  titleTag.textContent = document.title
+  console.log('titleTag function ran')
+}
+
+console.log(testTitle(titleTag.textContent))
+</script>
